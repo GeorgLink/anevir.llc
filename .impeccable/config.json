@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "docs/style.css"
+        ],
+        "createdAt": "2026-10-09T03:00:49.617Z",
+        "reason": "agent triage: flagged lines are the altimeter track line and a tick mark drawn with borders, not card accents"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "docs/style.css"
+        ],
+        "createdAt": "2026-10-09T03:00:49.637Z",
+        "reason": "agent triage: flagged line is the second stroke of a tick mark; the element has no radius"
+      }
+    ]
+  }
+}
